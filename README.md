@@ -37,9 +37,13 @@
 | **Ensemble Predicciones** |  | 1 (sin) | 1 (sin) | 1 (sin) | 1 (sin) | 1 (sin) | 5 (con) |
 | **Kaggle-Mejor Ganancia** |  | 419,218 | -- | -- | 454998 | -- | -- |
 | **VM** |  | 8vCPU-128GB | 8vCPU-128GB | 12vCPU-512GB | 12vCPU-512GB | 12vCPU-512GB | 12vCPU-512GB |
-| **Issues presentados** |  |  |  |  |  |  | Al crear las 5 corridas para luego hacer el ensemble, puse 9509-1, 9509-2, etc. R toma este guión como un menos. Es decir, 9509-1 comenzó a grabar sobre 9508 y 9509-2 comenzó a grabar sobre 9507 (pisando algunos de los archivos de la corrida que había enviado a Kaggle al momento) |
 
 **Nota:** Datadrifting y FE intra-mes, FE clasif clientes (RF), Red Dimensiones (Canaritos): siempre standard (sin cambios)
+
+## Issues presentados
+
+- Perdida de tiempo en corridas fallidas.
+- Y, en corrida final: Al crear las 5 corridas para luego hacer el ensemble, puse 9509-1, 9509-2, etc. R toma este guión como un menos. Es decir, 9509-1 comenzó a grabar sobre 9508 y 9509-2 comenzó a grabar sobre 9507 (pisando algunos de los archivos de la corrida que había enviado a Kaggle al momento. Fueron pocos, porque lo finalicé pronto. Los de FE.)
 
 ## Archivos entregados
 
