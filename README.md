@@ -10,10 +10,10 @@
 
 **Intenté hacer:**
 
-- un semillerío en la función a maximizar en la Optimización Bayesiana
-- un semillerío para la creación de modelos, para luego obtener una probabilidad promedio para cada cliente
+- un semillerío en la función a maximizar en la Optimización Bayesiana (logrado)
+- un semillerío para la creación de modelos, para luego obtener una probabilidad promedio para cada cliente (logrado)
 - un ensemble de estas probabilidades obtenidos con varias corridas de las notebooks con semillas distintas (5 por falta de tiempo, de hecho no llegué a completar estas ejecuciones)
-- tomando el baseline de la cátedra para FE (aunque exploré en algún momento alguna variación)
+- tomando el baseline de la cátedra para FE (aunque exploré en algún momento inicial alguna variación)
 
 ## Detalle de corridas
 
